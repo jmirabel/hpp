@@ -1,0 +1,67 @@
+[submodule "hpp-pinocchio"]
+	path = hpp-pinocchio
+	url = https://github.com/humanoid-path-planner/hpp-pinocchio
+	branch = 394fbf89d7cb48ab4058dd6ddfe572f189c6fa42
+[submodule "hpp-constraints"]
+	path = hpp-constraints
+	url = https://github.com/humanoid-path-planner/hpp-constraints
+[submodule "hpp-util"]
+	path = hpp-util
+	url = https://github.com/humanoid-path-planner/hpp-util
+[submodule "hpp-statistics"]
+	path = hpp-statistics
+	url = https://github.com/humanoid-path-planner/hpp-statistics
+[submodule "hpp-core"]
+	path = hpp-core
+	url = https://github.com/humanoid-path-planner/hpp-core
+[submodule "hpp-corbaserver"]
+	path = hpp-corbaserver
+	url = https://github.com/humanoid-path-planner/hpp-corbaserver
+[submodule "hpp-template-corba"]
+	path = hpp-template-corba
+	url = https://github.com/humanoid-path-planner/hpp-template-corba
+[submodule "hpp-manipulation"]
+	path = hpp-manipulation
+	url = https://github.com/humanoid-path-planner/hpp-manipulation
+[submodule "hpp-manipulation-urdf"]
+	path = hpp-manipulation-urdf
+	url = https://github.com/humanoid-path-planner/hpp-manipulation-urdf
+[submodule "hpp-manipulation-corba"]
+	path = hpp-manipulation-corba
+	url = https://github.com/humanoid-path-planner/hpp-manipulation-corba
+[submodule "hpp-gepetto-viewer"]
+	path = hpp-gepetto-viewer
+	url = https://github.com/humanoid-path-planner/hpp-gepetto-viewer
+[submodule "hpp-fcl"]
+	path = hpp-fcl
+	url = https://github.com/humanoid-path-planner/hpp-fcl
+[submodule "pinocchio"]
+	path = pinocchio
+	url = https://github.com/humanoid-path-planner/pinocchio
+[submodule "hpp-environments"]
+	path = hpp-environments
+	url = https://github.com/humanoid-path-planner/hpp-environments
+[submodule "hpp-doc"]
+	path = hpp-doc
+	url = https://github.com/humanoid-path-planner/hpp-doc
+[submodule "hpp-gui"]
+	path = hpp-gui
+	url = https://github.com/humanoid-path-planner/hpp-gui
+[submodule "hpp-plot"]
+	path = hpp-plot
+	url = https://github.com/humanoid-path-planner/hpp-plot
+[submodule "gepetto-viewer"]
+	path = gepetto-viewer
+	url = https://github.com/humanoid-path-planner/gepetto-viewer
+[submodule "gepetto-viewer-corba"]
+	path = gepetto-viewer-corba
+	url = https://github.com/humanoid-path-planner/gepetto-viewer-corba
+[submodule "hpp_tutorial"]
+	path = hpp_tutorial
+	url = https://github.com/humanoid-path-planner/hpp_tutorial
+[submodule "hpp-tools"]
+	path = hpp-tools
+	url = https://github.com/humanoid-path-planner/hpp-tools
+[submodule "example-robot-data"]
+	path = example-robot-data
+	url = https://github.com/humanoid-path-planner/example-robot-data
