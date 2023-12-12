@@ -46,6 +46,10 @@ pinocchio_extra_flags= -DBUILD_UNIT_TESTS=OFF -DBUILD_WITH_COLLISION_SUPPORT=ON
 hpp-template-corba_branch=${HPP_VERSION}
 hpp-template-corba_repository=${HPP_REPO}
 
+proxsuite_branch=v0.6.1
+proxsuite_repository=https://github.com/Simple-Robotics/proxsuite
+proxsuite_extra_flags=-DBUILD_WITH_VECTORIZATION_SUPPORT=OFF
+
 # }}}
 ##################################
 # {{{ Packages supporting HPP_VERSION
@@ -195,11 +199,12 @@ hpp-fcl.configure.dep: hpp-fcl.checkout
 hpp-util.configure.dep: hpp-util.checkout
 hpp-model-urdf.configure.dep: hpp-model.install hpp-model-urdf.checkout
 pinocchio.configure.dep: hpp-fcl.install pinocchio.checkout
+proxsuite.configure.dep:
 hpp-pinocchio.configure.dep: pinocchio.install hpp-util.install \
 	hpp-pinocchio.checkout
 hpp-statistics.configure.dep: hpp-util.install hpp-statistics.checkout
 hpp-core.configure.dep: example-robot-data.install hpp-constraints.install \
-	hpp-statistics.install hpp-core.checkout
+	hpp-statistics.install proxsuite.install hpp-core.checkout
 hpp-constraints.configure.dep: hpp-pinocchio.install hpp-statistics.install \
 	hpp-environments.install hpp-constraints.checkout
 hpp-manipulation.configure.dep: hpp-core.install hpp-constraints.install \
