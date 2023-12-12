@@ -65,3 +65,6 @@
 [submodule "example-robot-data"]
 	path = example-robot-data
 	url = https://github.com/humanoid-path-planner/example-robot-data
+[submodule "proxsuite"]
+	path = proxsuite
+	url = https://github.com/Simple-Robotics/proxsuite
