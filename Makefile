@@ -47,7 +47,7 @@ hpp-template-corba_branch=${HPP_VERSION}
 hpp-template-corba_repository=${HPP_REPO}
 
 proxsuite_branch=v0.6.1
-proxsuite_repository=https://github.com/Simple-Robotics/proxsuite
+proxsuite_repository=https://github.com/Simple-Robotics
 proxsuite_extra_flags=-DBUILD_WITH_VECTORIZATION_SUPPORT=OFF
 
 # }}}

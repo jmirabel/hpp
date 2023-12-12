@@ -37,7 +37,7 @@
 	url = https://github.com/humanoid-path-planner/hpp-fcl
 [submodule "pinocchio"]
 	path = pinocchio
-	url = https://github.com/humanoid-path-planner/pinocchio
+	url = https://github.com/stack-of-tasks/pinocchio
 [submodule "hpp-environments"]
 	path = hpp-environments
 	url = https://github.com/humanoid-path-planner/hpp-environments
@@ -64,7 +64,7 @@
 	url = https://github.com/humanoid-path-planner/hpp-tools
 [submodule "example-robot-data"]
 	path = example-robot-data
-	url = https://github.com/humanoid-path-planner/example-robot-data
+	url = https://github.com/Gepetto/example-robot-data
 [submodule "proxsuite"]
 	path = proxsuite
 	url = https://github.com/Simple-Robotics/proxsuite
