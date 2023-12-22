@@ -106,6 +106,9 @@ hpp-gui_repository=${HPP_REPO}
 hpp-practicals_branch=${HPP_VERSION}
 hpp-practicals_repository=${HPP_REPO}
 
+hpp-python_branch=${HPP_VERSION}
+hpp-python_repository=${HPP_REPO}
+
 # }}}
 ##################################
 # {{{ Robot specific package + test packages
@@ -241,6 +244,7 @@ hpp-environments.configure.dep: example-robot-data.install hpp-environments.chec
 hpp-baxter.configure.dep: example-robot-data.install hpp-baxter.checkout
 hpp_romeo.configure.dep: hpp_romeo.checkout
 hpp-tools.configure.dep: hpp-tools.checkout
+hpp-python.configure.dep: hpp-corbaserver.install hpp-python.checkout
 
 # }}}
 ##################################
